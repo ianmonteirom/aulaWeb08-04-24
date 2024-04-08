@@ -60,3 +60,13 @@ console.log(`Nome e Local: ${usuario.nome} ${usuario.local}`);
 //COM DESESTRUTURAÇÃO
 let {nome, local} = usuario;
 console.log(`${nome} ${local}`);
+
+// ARROW FUNCTION
+
+let items = ['Fusca', 'Belina', 'Gurgel', 'Brasilia', 'Kombi'];
+items.forEach(function(item) {
+    console.log(item);
+})
+
+let items1 = ['Fusca-1', 'Belina-1', 'Gurgel-1', 'Brasilia1-', 'Kombi-1'];
+items1.forEach(item1 => console.log(item1))
