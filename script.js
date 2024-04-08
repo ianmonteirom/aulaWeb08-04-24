@@ -45,3 +45,18 @@ while (sorteio.length < 6) {
 
 sorteio.sort((a, b) => a - b);
 console.log(sorteio);
+
+//DESESTRUTURAÇÃO
+
+const usuario = {
+    nome: 'Fiap',
+    local: 'São Paulo',
+    idade: 20
+};
+
+//SEM DESESTRUTURAÇÃO
+console.log(`Nome e Local: ${usuario.nome} ${usuario.local}`);
+
+//COM DESESTRUTURAÇÃO
+let {nome, local} = usuario;
+console.log(`${nome} ${local}`);
